@@ -1,0 +1,28 @@
+family: miniwob
+suite_version: 0.1.0
+replay_class: R0
+tasks:
+  - task_id: click-button
+    category: click
+  - task_id: click-checkboxes
+    category: click
+  - task_id: click-dialog
+    category: click
+  - task_id: click-link
+    category: click
+  - task_id: click-option
+    category: select
+  - task_id: click-scroll-list
+    category: select
+  - task_id: enter-date
+    category: text
+  - task_id: enter-text
+    category: text
+  - task_id: focus-text
+    category: text
+  - task_id: login-user
+    category: form
+  - task_id: multi-layouts
+    category: layout
+  - task_id: use-slider
+    category: widget

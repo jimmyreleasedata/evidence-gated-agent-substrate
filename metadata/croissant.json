@@ -1,0 +1,213 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileObject": "cr:fileObject",
+    "fileProperty": "cr:fileProperty",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "citeAs": "https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release",
+  "codeRepository": "https://github.com/jimmyreleasedata/evidence-gated-agent-substrate",
+  "conditionsOfAccess": "Anonymous reviewer access; large raw trace packs are externalized unless separately redacted and hosted.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "creator": {
+    "@type": "sc:Organization",
+    "name": "Anonymous Authors"
+  },
+  "datePublished": "2026-04-30",
+  "description": "Sanitized evidence-gated benchmark substrate release with paper-facing evidence surfaces, validation outputs, Croissant metadata, checksums, and redacted samples. Decision-study rows are separate from the 930-row canonical substrate aggregate. Credential-bearing browser state, request metadata, runtime secrets, and raw live-session records are excluded.",
+  "distribution": [
+    {
+      "@id": "file_data_global_paper_facing_surface_csv",
+      "@type": "cr:FileObject",
+      "contentUrl": "https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release/resolve/main/data/global/paper_facing_surface.csv",
+      "description": "Public artifact file: data/global/paper_facing_surface.csv",
+      "encodingFormat": "text/csv",
+      "name": "paper_facing_surface.csv",
+      "sha256": "b1eb5f612f437b97a5164085db46ed45edc7a6b84f413f5005f0e23e47840913"
+    },
+    {
+      "@id": "file_data_global_evidence_gate_report_json",
+      "@type": "cr:FileObject",
+      "contentUrl": "https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release/resolve/main/data/global/evidence_gate_report.json",
+      "description": "Public artifact file: data/global/evidence_gate_report.json",
+      "encodingFormat": "application/json",
+      "name": "evidence_gate_report.json",
+      "sha256": "99bd89e871283c9dd62513d205a349855f2bce245ef53ae4fef4ee32b6800981"
+    },
+    {
+      "@id": "file_data_decision_study_budget_grid_study_claim_matrix_csv",
+      "@type": "cr:FileObject",
+      "contentUrl": "https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release/resolve/main/data/decision_study/budget_grid_study/claim_matrix.csv",
+      "description": "Public artifact file: data/decision_study/budget_grid_study/claim_matrix.csv",
+      "encodingFormat": "text/csv",
+      "name": "claim_matrix.csv",
+      "sha256": "34c8da4eed24cac9967d850c7c12db015d6689ea509701bb03ca1561a28b1d84"
+    },
+    {
+      "@id": "paper_claim_to_artifact_map_csv",
+      "@type": "cr:FileObject",
+      "contentUrl": "https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release/resolve/main/validation/paper_claim_to_artifact_map.csv",
+      "description": "Public artifact file: validation/paper_claim_to_artifact_map.csv",
+      "encodingFormat": "text/csv",
+      "name": "paper_claim_to_artifact_map.csv",
+      "sha256": "bd87fb26f41506e4d28fd62717995e0b49896949b75cf5dab4afa111e1e2dd68"
+    },
+    {
+      "@id": "file_data_samples_redacted_event_trace_sample_jsonl_gz",
+      "@type": "cr:FileObject",
+      "contentUrl": "https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release/resolve/main/data/samples/redacted_event_trace_sample.jsonl.gz",
+      "description": "Public artifact file: data/samples/redacted_event_trace_sample.jsonl.gz",
+      "encodingFormat": "application/gzip",
+      "name": "redacted_event_trace_sample.jsonl.gz",
+      "sha256": "5e02731f6d1066090f11012f118176eb9d0ddd25fd511f64e0c3950328107ac7"
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseContext": "See LICENSES.md and THIRD_PARTY_ASSETS.md for mixed upstream asset terms and code/data context.",
+  "name": "evidence-gated-agent-substrate-release",
+  "prov:wasDerivedFrom": "Derived from WebArena Verified, SWE-Gym/SWE-bench-slice evidence, MiniWoB++ workloads, and released artifact processing outputs.",
+  "prov:wasGeneratedBy": "Generated by evidence gating, redaction, validation, checksum generation, Croissant metadata construction, and claim-map construction workflows.",
+  "rai:dataBiases": "Workload and task-family selection reflects WebArena Verified, SWE-Gym/SWE-bench-derived slices, and MiniWoB++ coverage only.",
+  "rai:dataLimitations": "Claim-complete artifact evidence rather than a raw trace dump; scope is limited to admitted cells, tested grids, and released evidence products.",
+  "rai:dataSocialImpact": "Improves reproducibility and evidence discipline; misuse risk exists if interpreted as a model-capability leaderboard, mitigated by explicit claim boundaries.",
+  "rai:dataUseCases": "Artifact review, reproducibility inspection, benchmark substrate inspection, and downstream agent-systems studies.",
+  "rai:hasSyntheticData": "Some fixture or smoke materials may exist for validation, but they are not paper-facing and are excluded from quantitative aggregates.",
+  "rai:personalSensitiveInformation": "No intentional personal data is included. Credential files, cookie jars, request header values, browser state exports, and raw sessions are excluded; samples are redacted.",
+  "recordSet": [
+    {
+      "@id": "claim_artifact_map",
+      "@type": "cr:RecordSet",
+      "description": "Reviewer-facing index mapping paper claims to artifacts.",
+      "field": [
+        {
+          "@id": "claim_artifact_map/paper_claim",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "paper_claim",
+          "source": {
+            "extract": {
+              "column": "paper_claim"
+            },
+            "fileObject": {
+              "@id": "paper_claim_to_artifact_map_csv"
+            }
+          }
+        },
+        {
+          "@id": "claim_artifact_map/location",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "location",
+          "source": {
+            "extract": {
+              "column": "location"
+            },
+            "fileObject": {
+              "@id": "paper_claim_to_artifact_map_csv"
+            }
+          }
+        },
+        {
+          "@id": "claim_artifact_map/artifact_path",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "artifact_path",
+          "source": {
+            "extract": {
+              "column": "artifact_path"
+            },
+            "fileObject": {
+              "@id": "paper_claim_to_artifact_map_csv"
+            }
+          }
+        },
+        {
+          "@id": "claim_artifact_map/evidence_summary",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "evidence_summary",
+          "source": {
+            "extract": {
+              "column": "evidence_summary"
+            },
+            "fileObject": {
+              "@id": "paper_claim_to_artifact_map_csv"
+            }
+          }
+        },
+        {
+          "@id": "claim_artifact_map/expected_value",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "expected_value",
+          "source": {
+            "extract": {
+              "column": "expected_value"
+            },
+            "fileObject": {
+              "@id": "paper_claim_to_artifact_map_csv"
+            }
+          }
+        },
+        {
+          "@id": "claim_artifact_map/validation_script",
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "validation_script",
+          "source": {
+            "extract": {
+              "column": "validation_script"
+            },
+            "fileObject": {
+              "@id": "paper_claim_to_artifact_map_csv"
+            }
+          }
+        }
+      ],
+      "name": "claim_artifact_map"
+    }
+  ],
+  "url": "https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release",
+  "version": "1.0.0"
+}

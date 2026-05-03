@@ -1,0 +1,7 @@
+family: swe_gym
+suite_version: 0.1.0
+implementation_source: real_upstream
+replay_class: R2
+selection_env: NIPS_SWE_REAL_TASKS
+tasks: []
+

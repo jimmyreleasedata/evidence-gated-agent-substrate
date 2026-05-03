@@ -1,0 +1,42 @@
+{
+  "accepted_rows": 930,
+  "allowed": true,
+  "by_backend_engine": {
+    "sglang": 9,
+    "unknown": 236,
+    "vllm": 685
+  },
+  "by_driver_type": {
+    "llm_agent": 694,
+    "negative_control": 3,
+    "oracle_control": 7,
+    "unknown": 226
+  },
+  "by_family": {
+    "miniwob": 804,
+    "swe_gym": 43,
+    "unknown": 2,
+    "webarena_verified": 81
+  },
+  "by_model_family": {
+    "gemma": 15,
+    "llama": 3,
+    "ministral": 15,
+    "qwen": 661,
+    "unknown": 236
+  },
+  "by_round": {
+    "ROUND1_REAL_TASK_CUTOVER": 224,
+    "ROUND2_QWEN_FAMILY_DRIVER": 640,
+    "closeout_EXTENSION_RISKFIX": 66
+  },
+  "input_rows": 2114,
+  "missing_rounds": [],
+  "paper_facing_surface": "artifact_release_root/global/paper_facing_surface.csv",
+  "rejected_rows": 1184,
+  "rejection_reasons": [
+    "not_marked_paper_facing",
+    "stress_claim_missing_decision_label"
+  ],
+  "root": "artifact_release_root"
+}

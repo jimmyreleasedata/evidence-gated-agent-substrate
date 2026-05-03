@@ -1,0 +1,25 @@
+catalog_id: framework_adapters
+catalog_version: 0.1.0
+frameworks:
+- framework: verl
+  module_name: verl
+  import_status: ready_external_env
+  notes: module_not_found;asplos_bridge_available;external_python=artifact_release_root/.venvs/verl_adapter_v2/bin/python
+  source_root: asplos
+  bridge_kind: verl_trace_replay_bridge
+  rollout_backend_options:
+  - vllm
+  - sglang
+  planned_workload_for_proof: webarena_verified
+  version: 0.7.1
+- framework: trl
+  module_name: trl
+  import_status: ready_external_env
+  notes: module_not_found;external_python=artifact_release_root/.venvs/trl_adapter/bin/python
+  source_root: pypi_or_huggingface
+  bridge_kind: trl_dataset_reward_bridge
+  rollout_backend_options:
+  - vllm
+  - sglang
+  planned_workload_for_proof: miniwob
+  version: 1.2.0

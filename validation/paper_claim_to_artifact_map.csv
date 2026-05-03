@@ -1,0 +1,21 @@
+paper_claim,location,artifact_path,evidence_summary,expected_value,validation_script
+canonical substrate surface,hf_dataset,data/global/paper_facing_surface.csv,Canonical evidence-gated paper-facing surface.,930 admitted paper-facing rows,scripts/reviewer/check_evidence_gate.py
+evidence gate exclusions,hf_dataset,data/global/evidence_gate_report.json,Evidence gate report for admitted and excluded rows.,930 admitted / 1184 excluded,scripts/reviewer/check_evidence_gate.py
+excluded row audit,hf_dataset,data/global/excluded_rows.csv,Rows excluded by the evidence gate.,1184 excluded rows,scripts/reviewer/check_evidence_gate.py
+figure inputs,hf_dataset,data/figure_inputs/,Released figure input files.,directory present with released inputs,scripts/reviewer/check_table_inputs.py
+table inputs,hf_dataset,data/table_inputs/,Released table input files.,directory present with released inputs,scripts/reviewer/check_table_inputs.py
+claim support matrix,hf_dataset,data/global/claim_support_matrix.csv,Claim support matrix used to bind claims to artifacts.,file present,scripts/reviewer/check_claim_artifact_map.py
+fixed-budget decision slice,hf_dataset,data/decision_study/fixed_budget_slice/decision_slice_summary.md,Admitted fixed-budget controller decision slice.,"56/56 admitted, 0 blocked",scripts/reviewer/check_decision_study.py
+fixed-budget decision admitted rows,hf_dataset,data/decision_study/fixed_budget_slice/decision_slice_admitted.csv,Admitted rows for fixed-budget decision slice.,56 admitted rows,scripts/reviewer/check_decision_study.py
+budget-grid decision closeout,hf_dataset,data/decision_study/budget_grid_study/claim_matrix.csv,Budget-grid decision closeout claim matrix.,336/336 admitted; 12/12 comparable cells,scripts/reviewer/check_decision_study.py
+budget-grid decision gate,hf_dataset,data/decision_study/budget_grid_study/gate_report.json,Budget-grid admission gate report.,"336 admitted, 0 blocked",scripts/reviewer/check_decision_study.py
+targeted failure attribution,hf_dataset,data/closeouts/targeted_failure_attribution/failure_attribution_audit.md,Failure attribution closeout summary.,file present,scripts/reviewer/check_claim_artifact_map.py
+SWE verifier-control repair,hf_dataset,data/closeouts/swe_verifier_control_repair/swe_gold_noop_official_closeout.csv,SWE gold/noop verifier-control closeout.,file present,scripts/reviewer/check_claim_artifact_map.py
+SWE driver-surface recompute,hf_dataset,data/closeouts/swe_driver_surface_recompute/swe_driver_aggregate_after_recompute.csv,SWE-only recompute aggregate.,file present,scripts/reviewer/check_claim_artifact_map.py
+stronger traffic-source sanity,hf_dataset,data/closeouts/stronger_traffic_source_sanity/bounded_stronger_traffic_source_sanity_summary.md,Bounded stronger traffic-source sanity summary.,file present,scripts/reviewer/check_claim_artifact_map.py
+Qwen traffic/cost evidence,hf_dataset,data/closeouts/qwen_traffic_cost/round_summary.md,Qwen-family traffic and cost evidence summary.,file present,scripts/reviewer/check_claim_artifact_map.py
+model/backend extension,hf_dataset,data/closeouts/model_backend_extension/round_summary.md,Bounded model/backend compatibility summary.,file present,scripts/reviewer/check_claim_artifact_map.py
+framework adapter demos,hf_dataset,data/closeouts/framework_adapter_demos/round_summary.md,Framework adapter demo summary.,file present,scripts/reviewer/check_claim_artifact_map.py
+Croissant metadata,hf_dataset,metadata/croissant_completed_for_openreview.json,OpenReview Croissant metadata file.,required fields present,scripts/reviewer/check_claim_artifact_map.py
+supplementary zip,hf_dataset,supplementary_zip/neurips_ed_anonymous_supplementary.zip,Small supplementary archive for OpenReview upload.,zip present and below 100 MB,scripts/reviewer/check_claim_artifact_map.py
+reviewer validation scripts,github_repo,scripts/reviewer/check_evidence_gate.py,Reviewer script for evidence-gate checks.,script present,scripts/reviewer/check_claim_artifact_map.py

@@ -1,0 +1,91 @@
+catalog_id: qwen_local_snapshots
+catalog_version: 0.1.0
+generated_on: 2026-03-28
+workspace_root: artifact_release_root
+backend: huggingface_local_snapshot
+defaults:
+  primary_model_id: Qwen/Qwen3-30B-A3B-Instruct-2507
+  small_reference_model_id: Qwen/Qwen2.5-1.5B-Instruct
+models:
+  - model_id: Qwen/Qwen3-30B-A3B-Instruct-2507
+    family: qwen
+    size_class: 30B-A3B
+    role_hint: primary
+    snapshot_id: 0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe
+    snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3-30B-A3B-Instruct-2507/snapshots/0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe
+    repo_cache_dir: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3-30B-A3B-Instruct-2507
+    refs_main_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3-30B-A3B-Instruct-2507/refs/main
+    weight_artifact: model.safetensors.index.json
+    required_files:
+      - config.json
+      - tokenizer.json
+      - generation_config.json
+      - model.safetensors.index.json
+    availability: present
+    verified_on: 2026-03-28
+  - model_id: Qwen/Qwen3.5-35B-A3B
+    family: qwen
+    size_class: 35B-A3B
+    role_hint: available_alternative
+    snapshot_id: ec2d4ece1ffb563322cbee9a48fe0e3fcbce0307
+    snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3.5-35B-A3B/snapshots/ec2d4ece1ffb563322cbee9a48fe0e3fcbce0307
+    repo_cache_dir: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3.5-35B-A3B
+    refs_main_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3.5-35B-A3B/refs/main
+    weight_artifact: model.safetensors.index.json
+    required_files:
+      - config.json
+      - tokenizer.json
+      - generation_config.json
+      - model.safetensors.index.json
+    availability: present
+    verified_on: 2026-03-28
+  - model_id: Qwen/Qwen2.5-14B-Instruct
+    family: qwen
+    size_class: 14B
+    role_hint: available_alternative
+    snapshot_id: cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8
+    snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8
+    repo_cache_dir: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-14B-Instruct
+    refs_main_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-14B-Instruct/refs/main
+    weight_artifact: model.safetensors.index.json
+    required_files:
+      - config.json
+      - tokenizer.json
+      - generation_config.json
+      - model.safetensors.index.json
+    availability: present
+    verified_on: 2026-03-28
+  - model_id: Qwen/Qwen2.5-7B-Instruct
+    family: qwen
+    size_class: 7B
+    role_hint: available_alternative
+    snapshot_id: a09a35458c702b33eeacc393d103063234e8bc28
+    snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28
+    repo_cache_dir: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-7B-Instruct
+    refs_main_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-7B-Instruct/refs/main
+    weight_artifact: model.safetensors.index.json
+    required_files:
+      - config.json
+      - tokenizer.json
+      - generation_config.json
+      - model.safetensors.index.json
+    availability: present
+    verified_on: 2026-03-28
+  - model_id: Qwen/Qwen2.5-1.5B-Instruct
+    family: qwen
+    size_class: 1.5B
+    role_hint: small_reference
+    snapshot_id: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+    snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+    alternate_snapshot_paths:
+      - artifact_release_root/exp-llm-static-dynamic/.cache/huggingface/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+    repo_cache_dir: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-1.5B-Instruct
+    refs_main_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-1.5B-Instruct/refs/main
+    weight_artifact: model.safetensors
+    required_files:
+      - config.json
+      - tokenizer.json
+      - generation_config.json
+      - model.safetensors
+    availability: present
+    verified_on: 2026-03-28

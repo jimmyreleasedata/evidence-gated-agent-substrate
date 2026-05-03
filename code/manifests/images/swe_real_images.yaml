@@ -1,0 +1,7 @@
+images:
+  default:
+    name: swe-real-default
+    image_source: docker://python:3.11-slim
+    image_digest: sha256:140b2cc2492dfd1b774c5e531939422b
+    sif_hash: sha256:real-swe-sif-placeholder
+

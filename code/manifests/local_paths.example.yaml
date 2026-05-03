@@ -1,0 +1,5 @@
+# Local external benchmark repositories.
+# Copy to manifests/local_paths.yaml or run scripts/bootstrap_real_backends.sh.
+
+browsergym_repo: /abs/path/to/browsergym
+swebench_repo: /abs/path/to/SWE-bench

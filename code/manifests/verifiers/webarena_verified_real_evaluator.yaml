@@ -1,0 +1,15 @@
+verifier:
+  id: webarena_verified_real_evaluator
+  version_env: NIPS_WEBARENA_VERIFIED_EVALUATOR_VERSION
+  family: webarena_verified
+  replay_class: R1
+  implementation_source: real_upstream_replay
+  required_freeze_fields:
+    - evaluator_id
+    - evaluator_version
+    - upstream_commit
+    - trace_hash
+    - task_manifest_hash
+    - trace_bundle_ref
+  notes: Deterministic offline evaluator wrapper for real WebArena Verified trace/evaluator bundles.
+

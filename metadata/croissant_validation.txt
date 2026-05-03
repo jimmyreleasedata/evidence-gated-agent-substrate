@@ -1,0 +1,11 @@
+# CROISSANT VALIDATION CLOSEOUT
+
+croissant_validation_status=external_validator_passed_records_generation_passed
+json_format_validation=passed
+croissant_schema_validation=passed
+records_generation_test=passed
+recordset_claim_artifact_map=passed
+validated_file=metadata/croissant_completed_for_openreview.json
+validated_file_sha256=20c450a223446ba043d702c706217f3c254d500380b321b164a8e978e25807f6
+validation_timestamp_utc=2026-05-03T03:24:35Z
+notes=Croissant distribution does not include supplementary zip or checksum files, so this checksum-scope repair did not require Croissant content changes unless a stale checksum distribution entry was found. The claim_artifact_map RecordSet remains the records-generation target.

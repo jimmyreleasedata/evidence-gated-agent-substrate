@@ -1,0 +1,29 @@
+experiment_id: swe_verifier_saturation_v1
+family: swe
+goal: verifier saturation sweep for Phase 5 queue evidence and Phase 4 backend contrast
+drivers:
+  - oracle_control
+  - negative_control
+  - llm_patch_provider
+requested_models:
+  - Qwen/Qwen2.5-1.5B-Instruct
+  - Qwen/Qwen2.5-14B-Instruct
+  - meta-llama/Llama-3.1-8B-Instruct
+requested_backends:
+  - vllm
+  - sglang
+concurrency:
+  - 1
+  - 4
+  - 8
+  - 16
+verifier_workers:
+  - 1
+  - 2
+queue_cap:
+  - normal
+  - low
+telemetry_mode: full
+notes:
+  - Run only model/backend pairs that are marked ready in manifests/models/model_backend_pairs.yaml.
+  - Controls are calibration-only and do not participate in backend contrast.

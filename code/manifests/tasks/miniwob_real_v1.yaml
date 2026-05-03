@@ -1,0 +1,12 @@
+version: v1
+tasks:
+  - task_id: miniwob/click-button
+    env_id: miniwob/click-button-v1
+    instruction: Click the primary button.
+    action_sequence:
+      - click:primary
+  - task_id: miniwob/enter-text
+    env_id: miniwob/enter-text-v1
+    instruction: Type the requested text.
+    action_sequence:
+      - type:text

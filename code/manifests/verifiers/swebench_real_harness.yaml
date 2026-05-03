@@ -1,0 +1,15 @@
+verifier:
+  id: swebench_real_harness
+  family: swe_gym
+  replay_class: R2
+  implementation_source: real_upstream
+  version_env: NIPS_SWE_HARNESS_VERSION
+  required_freeze_fields:
+    - instance_id
+    - repo
+    - base_commit
+    - image_digest_or_sif_hash
+    - harness_version
+    - patch_condition
+  notes: Official-compatible SWE-bench harness path running real upstream task metadata through the Apptainer-first backend.
+

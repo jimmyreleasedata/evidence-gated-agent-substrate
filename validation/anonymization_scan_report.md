@@ -1,0 +1,10 @@
+# Anonymization Scan Report
+
+forbidden_hits=0
+cluster_identity_hits=0
+internal_label_hits=0
+stale_path_name_hits=0
+paper_facing_surface_rows=930
+pbs_job_id_redacted_cells=55
+pbs_job_id_redacted_unique_values=1
+scan_status=pass

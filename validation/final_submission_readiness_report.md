@@ -1,0 +1,44 @@
+# Final Submission Readiness Report
+
+SUBMISSION_PACKAGE_READY=yes
+SUBMISSION_REMOTE_READY=yes
+SUBMISSION_READY=yes
+code_url_status=published
+dataset_url_status=published
+GitHub_commit_hash=published_remote_branch_head
+HF_latest_commit_hash=published_dataset_head
+branches_pushed=main,ed-paper-submission
+branches_same_commit=yes
+HF_dataset_URL=https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release
+croissant_validation_status=external_validator_passed_records_generation_passed
+json_format_validation=passed
+croissant_schema_validation=passed
+records_generation_test=passed
+recordset_claim_artifact_map=passed
+croissant_completed_file_sha256=20c450a223446ba043d702c706217f3c254d500380b321b164a8e978e25807f6
+forbidden_hits=0
+raw_secret_hits=0
+cluster_identity_hits=0
+internal_label_hits=0
+stale_path_name_hits=0
+stale_path/name_hits=0
+claim_map_path_resolution=passed
+reviewer_quick_path_status=passed
+placeholder_hits=0
+paper_facing_surface_rows=930
+pbs_job_id_redacted_cells=55
+pbs_job_id_redacted_unique_values=1
+supplementary_zip_path=supplementary_zip/neurips_ed_anonymous_supplementary.zip
+supplementary_zip_size_bytes=000001707047
+supplementary_zip_checksum_scope=zip_local
+hf_dataset_checksum_file=checksums/HF_DATASET_SHA256SUMS
+GitHub_fresh_clone_validation_status=passed
+Hugging_Face_dataset_validation_status=passed
+HF_public_metadata_validation_status=passed
+HF_Dataset_Viewer_status=viewer_disabled_file_oriented_artifact
+
+OpenReview fields:
+Code URL: https://github.com/jimmyreleasedata/evidence-gated-agent-substrate
+Dataset URL: https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release
+Croissant file: metadata/croissant_completed_for_openreview.json
+Supplementary zip: supplementary_zip/neurips_ed_anonymous_supplementary.zip

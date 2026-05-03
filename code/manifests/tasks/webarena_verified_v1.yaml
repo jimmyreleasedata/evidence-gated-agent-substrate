@@ -1,0 +1,41 @@
+family: webarena_verified
+suite_version: 0.1.0
+replay_class: R1
+offline_first: true
+tasks:
+  - task_id: search_product_specs
+    site: classifieds
+    start_url: https://classifieds.example/search
+  - task_id: navigate_support_doc
+    site: support
+    start_url: https://support.example/docs
+  - task_id: filter_forum_answer
+    site: forum
+    start_url: https://forum.example/questions
+  - task_id: compare_product_variants
+    site: catalog
+    start_url: https://catalog.example/products
+  - task_id: locate_shipping_faq
+    site: support
+    start_url: https://support.example/docs
+  - task_id: find_forum_troubleshooting_post
+    site: forum
+    start_url: https://forum.example/questions
+  - task_id: open_discount_monitor_listing
+    site: classifieds
+    start_url: https://classifieds.example/search
+  - task_id: compare_keyboard_variants
+    site: catalog
+    start_url: https://catalog.example/products
+  - task_id: locate_membership_pricing_page
+    site: support
+    start_url: https://support.example/docs
+  - task_id: find_forum_account_recovery_post
+    site: forum
+    start_url: https://forum.example/questions
+  - task_id: open_refurbished_laptop_listing
+    site: classifieds
+    start_url: https://classifieds.example/search
+  - task_id: compare_router_variants
+    site: catalog
+    start_url: https://catalog.example/products

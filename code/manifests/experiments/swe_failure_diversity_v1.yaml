@@ -1,0 +1,25 @@
+experiment_id: swe_failure_diversity_v1
+family: swe
+goal: failure diversity sweep for Phase 5 SWE claim repair
+drivers:
+  - oracle_control
+  - negative_control
+  - llm_patch_provider
+requested_models:
+  - Qwen/Qwen2.5-1.5B-Instruct
+  - Qwen/Qwen2.5-14B-Instruct
+  - meta-llama/Llama-3.1-8B-Instruct
+requested_backends:
+  - vllm
+  - sglang
+controlled_failure_modes:
+  - timeout
+  - patch_apply_fail
+  - build_fail
+  - test_fail
+baseline_offered_load: 1
+stressed_offered_load: 8
+telemetry_mode: full
+notes:
+  - Oracle controlled failures are calibration rows.
+  - LLM patch-provider stressed runs should keep natural failures natural by restricting controlled overlays to oracle-only.

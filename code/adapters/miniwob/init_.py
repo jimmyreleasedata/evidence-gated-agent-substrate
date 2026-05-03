@@ -1,0 +1,1 @@
+"""MiniWoB++ adapter package."""

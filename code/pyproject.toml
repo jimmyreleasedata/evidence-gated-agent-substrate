@@ -1,0 +1,22 @@
+[project]
+name = "benchmark-suite"
+version = "0.1.0"
+description = "NeurIPS benchmark suite substrate for tool-using agent post-training"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7",
+]
+export = [
+  "duckdb>=1.0.0",
+  "pyarrow>=17.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

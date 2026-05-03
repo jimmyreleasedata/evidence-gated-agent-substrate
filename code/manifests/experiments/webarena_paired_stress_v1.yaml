@@ -1,0 +1,32 @@
+experiment_id: webarena_paired_stress_v1
+workload_family: webarena
+backend: webarena_verified_live_capture
+scope: bounded_real_live_llm_operating_point
+traffic_sources:
+  - llm_agent
+models:
+  - Qwen/Qwen2.5-1.5B-Instruct
+  - Qwen/Qwen2.5-14B-Instruct
+  - meta-llama/Llama-3.1-8B-Instruct
+backends:
+  - vllm
+regimes:
+  - clean
+  - medium
+  - heavy
+offered_load_by_regime:
+  clean: 1
+  medium: 2
+  heavy: 4
+seed_base: 0
+budget: 4
+task_limit: 11
+telemetry_mode: full
+claims:
+  stress_tail: operating_point_shift_only
+  component_shift: unsupported_without_component_metrics
+  controller_reversal: reuse_prior_bounded_pilot
+notes:
+  - real live-host llm traffic only
+  - no hook_a_only or hook_b_only rerun in this manifest
+  - use the resulting stress table to refresh WebArena operating-point evidence without promoting new controller claims

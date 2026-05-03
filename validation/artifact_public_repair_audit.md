@@ -1,0 +1,8 @@
+# Artifact Public Repair Audit
+
+cluster_identity_hits_before=detected_in_public_global_csvs
+cluster_identity_hits_after=0
+placeholder_hits=0
+stale_status_hits=0
+claim_map_path_resolution=passed
+supplementary_zip_status=regenerated

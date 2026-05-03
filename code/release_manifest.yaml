@@ -1,0 +1,36 @@
+release_tag: v0.1.0
+release_date_utc: 2026-04-24T18:32:41Z
+suite_version: 0.1.0
+repo_commit: 45461826e175a1cae755e7b9c613b791e00978a4
+task_manifest_hash: 5ef5156669b23b08a6bd1ed510758b5fd2b8f62d7ea161ed73f82185d36cbdc7
+trace_schema_version: 1.0.0
+replay_harness_version: 0.1.0
+model_backend_version:
+  miniwob: mock-policy@0.1.0
+  webarena_verified: mock-web-policy@0.1.0
+  swe_gym: mock-code-policy@0.1.0
+model_checkpoint_id:
+  miniwob: heuristic-v1
+  webarena_verified: heuristic-v1
+  swe_gym: heuristic-v1
+container:
+  default_backend: apptainer
+  apptainer_version: "apptainer version 1.4.1"
+  image_digest: sha256:mock-swebench-python311
+  sif_hash: sha256:mock-swebench-sif-host-fallback
+browser:
+  version: mock-browser-0.1.0
+verifier_version:
+  webarena_verified: 0.1.0
+  swebench_harness: 0.1.0
+seed_policy:
+  miniwob: heuristic-v1
+  webarena_verified: heuristic-v1
+  swe_gym: heuristic-v1
+sample_traces:
+  - sample_traces/release_v1/miniwob_events.jsonl
+  - sample_traces/release_v1/webarena_live_events.jsonl
+  - sample_traces/release_v1/webarena_replay_events.jsonl
+  - sample_traces/release_v1/swe_live_events.jsonl
+  - sample_traces/release_v1/swe_replay_events.jsonl
+evidence_gate_report: artifacts/release/evidence_gate_report.json

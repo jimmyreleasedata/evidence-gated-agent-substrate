@@ -1,0 +1,45 @@
+asset_root_default: nips_upstream_assets
+
+families:
+  webarena_verified:
+    official_source: https://github.com/jimmyreleasedata/evidence-gated-agent-substrate
+    package_name: webarena-verified
+    preferred_subset: webarena-verified-hard
+    preferred_slice_size: 20
+    minimum_slice_size: 10
+    replay_class: R1
+    exported_env:
+      - NIPS_WEBARENA_VERIFIED_ROOT
+      - NIPS_WEBARENA_VERIFIED_DATASET
+      - NIPS_WEBARENA_VERIFIED_TASKS
+      - NIPS_WEBARENA_VERIFIED_TRACE_ROOT
+      - NIPS_WEBARENA_VERIFIED_EVALUATOR_VERSION
+      - NIPS_WEBARENA_VERIFIED_COMMIT
+
+  swe:
+    official_source: https://github.com/jimmyreleasedata/evidence-gated-agent-substrate
+    preferred_dataset: princeton-nlp/SWE-bench_Verified
+    debugging_dataset: princeton-nlp/SWE-bench_Lite
+    preferred_slice_size: 10
+    minimum_slice_size: 5
+    replay_class: R2
+    exported_env:
+      - NIPS_SWEBENCH_ROOT
+      - NIPS_SWE_REAL_TASKS
+      - NIPS_SWE_IMAGE_ROOT
+      - NIPS_SWE_CONTAINER_BACKEND
+
+  miniwob:
+    official_source: https://github.com/jimmyreleasedata/evidence-gated-agent-substrate
+    preferred_source: https://github.com/jimmyreleasedata/evidence-gated-agent-substrate
+    fallback_source: https://github.com/jimmyreleasedata/evidence-gated-agent-substrate
+    preferred_backend: browsergym_miniwob
+    fallback_backend: farama_selenium
+    preferred_slice_size: 20
+    minimum_slice_size: 12
+    replay_class: R0
+    exported_env:
+      - NIPS_MINIWOB_BACKEND
+      - NIPS_MINIWOB_ROOT
+      - NIPS_MINIWOB_TASKS
+      - NIPS_MINIWOB_HEADLESS

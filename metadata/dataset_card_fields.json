@@ -1,0 +1,6 @@
+{
+  "code_url": "https://github.com/jimmyreleasedata/evidence-gated-agent-substrate",
+  "dataset_url": "https://huggingface.co/datasets/jimmyreleasedata/evidence-gated-agent-substrate-release",
+  "name": "evidence-gated-agent-substrate-release",
+  "redacted_samples": true
+}

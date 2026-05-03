@@ -1,0 +1,7 @@
+image:
+  name: swebench-mock
+  source: docker://python:3.11-slim
+  digest: sha256:140b2cc2492dfd1b774c5e531939422be6e738c2e99b8b0ff226cfbac25a0426
+  sif_hash: sha256:mock-swebench-sif-host-fallback
+  backend_default: apptainer
+  notes: Mock image metadata used for Apptainer-first smoke validation.

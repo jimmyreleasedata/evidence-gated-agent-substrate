@@ -1,0 +1,14 @@
+verifier:
+  id: swebench_harness
+  version: 0.1.0
+  family: swe_gym
+  replay_class: R2
+  required_freeze_fields:
+    - task_instance_id
+    - repo_commit
+    - image
+    - dependency_lock
+    - build_command
+    - test_command
+    - seed_policy
+  notes: Mock SWE-bench harness verifier manifest for Apptainer-first smoke runs.

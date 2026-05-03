@@ -1,0 +1,28 @@
+family: swe_gym
+suite_version: 0.1.0
+replay_class: R2
+tasks:
+  - task_id: fix_answer
+    instance_id: mock__calc-001
+    repo_name: mock_calc
+  - task_id: fix_greeting
+    instance_id: mock__hello-002
+    repo_name: mock_hello
+  - task_id: fix_flag_parser
+    instance_id: mock__flags-003
+    repo_name: mock_flags
+  - task_id: fix_ini_parser
+    instance_id: mock__ini-004
+    repo_name: mock_ini
+  - task_id: fix_path_normalizer
+    instance_id: mock__paths-005
+    repo_name: mock_paths
+  - task_id: fix_csv_loader
+    instance_id: mock__csv-006
+    repo_name: mock_csv
+  - task_id: fix_json_loader
+    instance_id: mock__json-007
+    repo_name: mock_json
+  - task_id: fix_env_parser
+    instance_id: mock__env-008
+    repo_name: mock_env

@@ -1,0 +1,15 @@
+replay_classes:
+  miniwob:
+    primary: R0
+    secondary: []
+    consistency_boundary: statistical
+  webarena_verified:
+    primary: R1
+    secondary:
+      - R0
+    consistency_boundary: trace
+  swe_gym:
+    primary: R2
+    secondary:
+      - R0
+    consistency_boundary: snapshot

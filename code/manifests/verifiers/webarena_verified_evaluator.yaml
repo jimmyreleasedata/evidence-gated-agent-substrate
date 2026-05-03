@@ -1,0 +1,14 @@
+verifier:
+  id: webarena_verified_evaluator
+  version: 0.1.0
+  family: webarena_verified
+  replay_class: R1
+  expected_trace_schema_version: 1.0.0
+  freeze_fields:
+    - evaluator_id
+    - evaluator_version
+    - expected_trace_schema_version
+    - replay_class
+    - task_id
+    - trace_source
+  notes: Mock offline evaluator freeze manifest for fixture-first bring-up.

@@ -1,0 +1,13 @@
+family: webarena_verified
+suite_version: 0.1.0
+implementation_source: real_upstream_replay
+replay_class: R1
+selection_env: NIPS_WEBARENA_VERIFIED_TASKS
+trace_root_env: NIPS_WEBARENA_VERIFIED_TRACE_ROOT
+tasks: []
+bundle_layout:
+  trace_file: events.jsonl
+  task_manifest_file: task_manifest.json
+  evaluator_result_file: evaluation.json
+  step_reconstruction_file: null
+

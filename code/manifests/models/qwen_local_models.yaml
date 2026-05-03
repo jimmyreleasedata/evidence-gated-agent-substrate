@@ -1,0 +1,594 @@
+catalog_id: qwen_local_models
+catalog_version: 0.1.0
+generated_at: '2026-04-22T04:20:51.799557Z'
+models:
+- model_id: Qwen/Qwen2.5-1.5B-Instruct
+  model_family: qwen
+  model_size: 1.5B-Instruct
+  model_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+  snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+  tokenizer_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer.json
+  config_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json
+  checkpoint_id: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+  dtype: bfloat16
+  quantization: none
+  max_context_len: 32768
+  backend: vllm
+  required_gpu_count: 1
+  tensor_parallel_size: 1
+  load_status: ready
+  healthcheck_status: ready
+  healthcheck_latency_ms: 297.748
+  notes: real_vllm_ok
+  prompt_tokens: 36
+  completion_tokens: 2
+  total_tokens: 38
+  tokenizer_hash: 755c902d91c80c3c9c882578ac25d3618780b0ceadcfcd26c6694083bd32ffcf
+  model_path_hash: 42230ed6842fb93507b08b48e7dcd84d57402067c11d0aedabfdd56dda39e277
+  required_files:
+  - config.json
+  - tokenizer.json
+  - tokenizer_config.json
+  - generation_config.json
+  - model.safetensors
+  included_in_all_ready: true
+  included_in_paper_core: true
+  included_in_qwen_mid: false
+  model_backend: vllm
+  served_model_name: qwen-qwen2-5-1-5b-instruct-local
+- model_id: Qwen/Qwen2.5-7B-Instruct
+  model_family: qwen
+  model_size: 7B-Instruct
+  model_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28
+  snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28
+  tokenizer_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/tokenizer.json
+  config_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/config.json
+  checkpoint_id: a09a35458c702b33eeacc393d103063234e8bc28
+  dtype: bfloat16
+  quantization: none
+  max_context_len: 32768
+  backend: vllm
+  required_gpu_count: 1
+  tensor_parallel_size: 1
+  load_status: ready
+  healthcheck_status: ready
+  healthcheck_latency_ms: 297.378
+  notes: real_vllm_ok
+  prompt_tokens: 36
+  completion_tokens: 2
+  total_tokens: 38
+  tokenizer_hash: c8d6d367ff96b54cd158d126af66729648b1a6d86ebfa8291a2af6eb098affa2
+  model_path_hash: 5946717cb18478a18e50430de6ae4b6352c70d46fec1c0cc76245d34c4be11c8
+  required_files:
+  - config.json
+  - tokenizer.json
+  - tokenizer_config.json
+  - generation_config.json
+  - model.safetensors.index.json
+  included_in_all_ready: true
+  included_in_paper_core: false
+  included_in_qwen_mid: false
+  model_backend: vllm
+  served_model_name: qwen-qwen2-5-7b-instruct-local
+- model_id: Qwen/Qwen2.5-14B-Instruct
+  model_family: qwen
+  model_size: 14B-Instruct
+  model_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8
+  snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8
+  tokenizer_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer.json
+  config_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/config.json
+  checkpoint_id: cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8
+  dtype: bfloat16
+  quantization: none
+  max_context_len: 32768
+  backend: vllm
+  required_gpu_count: 1
+  tensor_parallel_size: 1
+  load_status: ready
+  healthcheck_status: ready
+  healthcheck_latency_ms: 312.635
+  notes: real_vllm_ok
+  prompt_tokens: 36
+  completion_tokens: 2
+  total_tokens: 38
+  tokenizer_hash: 26f69f18dc79a8543b8fd8694a9ca4ce70fc0018cec88da691a553308fe48877
+  model_path_hash: f129b2257f4b6b757fa04c8aa1fad7a9cf7f000ea8a8cb16bfd9e8b632c53e6c
+  required_files:
+  - config.json
+  - tokenizer.json
+  - tokenizer_config.json
+  - generation_config.json
+  - model.safetensors.index.json
+  included_in_all_ready: true
+  included_in_paper_core: false
+  included_in_qwen_mid: true
+  failure_excerpt: "\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/compilation/cuda_graph.py\"\
+    , line 220, in __call__\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     return\
+    \ self.runnable(*args, **kwargs)\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m\
+    \            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\"\
+    , line 1775, in _wrapped_call_impl\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m\
+    \     return self._call_impl(*args, **kwargs)\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\"\
+    , line 1786, in _call_impl\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     return\
+    \ forward_call(*args, **kwargs)\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m \
+    \           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/model_executor/models/qwen2.py\"\
+    , line 583, in forward\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     hidden_states\
+    \ = self.model(\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m                 \
+    \    ^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/compilation/decorators.py\"\
+    , line 526, in __call__\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     output\
+    \ = TorchCompileWithNoGuardsWrapper.__call__(self, *args, **kwargs)\n\e[0;36m(EngineCore_DP0\
+    \ pid=3672158)\e[0;0m              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/compilation/wrapper.py\"\
+    , line 218, in __call__\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     return\
+    \ self._call_with_optional_nvtx_range(\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0\
+    \ pid=3672158)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/compilation/wrapper.py\"\
+    , line 109, in _call_with_optional_nvtx_range\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m     return callable_fn(*args, **kwargs)\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py\"\
+    , line 845, in compile_wrapper\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m  \
+    \   raise e.remove_dynamo_frames() from None  # see TORCHDYNAMO_VERBOSE=1\n\e\
+    [0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/torch/_dynamo/output_graph.py\"\
+    , line 2196, in _call_user_compiler\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m\
+    \     raise BackendCompilerFailed(\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m\
+    \   File \"/usr/local/lib/python3.12/dist-packages/torch/_dynamo/output_graph.py\"\
+    , line 2171, in _call_user_compiler\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m\
+    \     compiled_fn = compiler_fn(gm, example_inputs)\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0\
+    \ pid=3672158)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/torch/_dynamo/repro/after_dynamo.py\"\
+    , line 156, in __call__\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     compiled_gm\
+    \ = compiler_fn(gm, example_inputs)\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m\
+    \                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/torch/__init__.py\", line\
+    \ 2437, in __call__\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     return self.compiler_fn(model_,\
+    \ inputs_, **self.kwargs)\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m       \
+    \     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0\
+    \ pid=3672158)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/compilation/backends.py\"\
+    , line 786, in __call__\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m     with\
+    \ open(graph_path, \"w\") as f:\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m \
+    \         ^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m torch._dynamo.exc.BackendCompilerFailed:\
+    \ backend='<vllm.compilation.backends.VllmBackend object at 0x14f798104980>' raised:\n\
+    \e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m OSError: [Errno 122] Disk quota exceeded\n\
+    \e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m \n\e[0;36m(EngineCore_DP0 pid=3672158)\e\
+    [0;0m Set TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially\
+    \ if you're reporting a bug to PyTorch). For even more developer context, set\
+    \ TORCH_LOGS=\"+dynamo\"\n\e[0;36m(EngineCore_DP0 pid=3672158)\e[0;0m \n[rank0]:[W422\
+    \ 04:52:52.916020192 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group()\
+    \ was not called before program exit, which can leak resources. For more info,\
+    \ please see https://pytorch.org/docs/stable/distributed.html#shutdown (function\
+    \ operator())\n\e[0;36m(APIServer pid=3671744)\e[0;0m Traceback (most recent call\
+    \ last):\n\e[0;36m(APIServer pid=3671744)\e[0;0m   File \"<frozen runpy>\", line\
+    \ 198, in _run_module_as_main\n\e[0;36m(APIServer pid=3671744)\e[0;0m   File \"\
+    <frozen runpy>\", line 88, in _run_code\n\e[0;36m(APIServer pid=3671744)\e[0;0m\
+    \   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1469, in <module>\n\e[0;36m(APIServer pid=3671744)\e[0;0m     uvloop.run(run_server(args))\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/uvloop/__init__.py\"\
+    , line 96, in run\n\e[0;36m(APIServer pid=3671744)\e[0;0m     return __asyncio.run(\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m            ^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m   File \"/usr/lib/python3.12/asyncio/runners.py\", line\
+    \ 195, in run\n\e[0;36m(APIServer pid=3671744)\e[0;0m     return runner.run(main)\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m            ^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m   File \"/usr/lib/python3.12/asyncio/runners.py\", line\
+    \ 118, in run\n\e[0;36m(APIServer pid=3671744)\e[0;0m     return self._loop.run_until_complete(task)\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m   File \"uvloop/loop.pyx\", line 1518,\
+    \ in uvloop.loop.Loop.run_until_complete\n\e[0;36m(APIServer pid=3671744)\e[0;0m\
+    \   File \"/usr/local/lib/python3.12/dist-packages/uvloop/__init__.py\", line\
+    \ 48, in wrapper\n\e[0;36m(APIServer pid=3671744)\e[0;0m     return await main\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m            ^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1398, in run_server\n\e[0;36m(APIServer pid=3671744)\e[0;0m     await run_server_worker(listen_address,\
+    \ sock, args, **uvicorn_kwargs)\n\e[0;36m(APIServer pid=3671744)\e[0;0m   File\
+    \ \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1417, in run_server_worker\n\e[0;36m(APIServer pid=3671744)\e[0;0m    \
+    \ async with build_async_engine_client(\n\e[0;36m(APIServer pid=3671744)\e[0;0m\
+    \                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3671744)\e\
+    [0;0m   File \"/usr/lib/python3.12/contextlib.py\", line 210, in __aenter__\n\e\
+    [0;36m(APIServer pid=3671744)\e[0;0m     return await anext(self.gen)\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3671744)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 172, in build_async_engine_client\n\e[0;36m(APIServer pid=3671744)\e[0;0m\
+    \     async with build_async_engine_client_from_engine_args(\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m   File \"/usr/lib/python3.12/contextlib.py\"\
+    , line 210, in __aenter__\n\e[0;36m(APIServer pid=3671744)\e[0;0m     return await\
+    \ anext(self.gen)\n\e[0;36m(APIServer pid=3671744)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 213, in build_async_engine_client_from_engine_args\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m     async_llm = AsyncLLM.from_vllm_config(\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m                 ^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/async_llm.py\"\
+    , line 215, in from_vllm_config\n\e[0;36m(APIServer pid=3671744)\e[0;0m     return\
+    \ cls(\n\e[0;36m(APIServer pid=3671744)\e[0;0m            ^^^^\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/async_llm.py\"\
+    , line 134, in __init__\n\e[0;36m(APIServer pid=3671744)\e[0;0m     self.engine_core\
+    \ = EngineCoreClient.make_async_mp_client(\n\e[0;36m(APIServer pid=3671744)\e\
+    [0;0m                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py\"\
+    , line 121, in make_async_mp_client\n\e[0;36m(APIServer pid=3671744)\e[0;0m  \
+    \   return AsyncMPClient(*client_args)\n\e[0;36m(APIServer pid=3671744)\e[0;0m\
+    \            ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3671744)\e[0;0m\
+    \   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py\"\
+    , line 820, in __init__\n\e[0;36m(APIServer pid=3671744)\e[0;0m     super().__init__(\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py\"\
+    , line 477, in __init__\n\e[0;36m(APIServer pid=3671744)\e[0;0m     with launch_core_engines(vllm_config,\
+    \ executor_class, log_stats) as (\n\e[0;36m(APIServer pid=3671744)\e[0;0m    \
+    \      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m   File \"/usr/lib/python3.12/contextlib.py\", line 144,\
+    \ in __exit__\n\e[0;36m(APIServer pid=3671744)\e[0;0m     next(self.gen)\n\e[0;36m(APIServer\
+    \ pid=3671744)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/utils.py\"\
+    , line 903, in launch_core_engines\n\e[0;36m(APIServer pid=3671744)\e[0;0m   \
+    \  wait_for_engine_startup(\n\e[0;36m(APIServer pid=3671744)\e[0;0m   File \"\
+    /usr/local/lib/python3.12/dist-packages/vllm/v1/engine/utils.py\", line 960, in\
+    \ wait_for_engine_startup\n\e[0;36m(APIServer pid=3671744)\e[0;0m     raise RuntimeError(\n\
+    \e[0;36m(APIServer pid=3671744)\e[0;0m RuntimeError: Engine core initialization\
+    \ failed. See root cause above. Failed core proc(s): {}\nTraceback (most recent\
+    \ call last):\n  File \"artifact_release_root/sosp26/env/vllm_qwen35_isolated_clean/lib/python3.10/runpy.py\"\
+    , line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n\
+    \  File \"artifact_release_root/sosp26/env/vllm_qwen35_isolated_clean/lib/python3.10/runpy.py\"\
+    , line 86, in _run_code\n    exec(code, run_globals)\n  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/entrypoints/openai/api_server.py\"\
+    , line 25, in <module>\n    from vllm.config import VllmConfig\n  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/config/__init__.py\"\
+    , line 6, in <module>\n    from vllm.config.compilation import (\n  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/config/compilation.py\"\
+    , line 22, in <module>\n    from vllm.platforms import current_platform\n  File\
+    \ \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/platforms/__init__.py\"\
+    , line 252, in __getattr__\n    _current_platform = resolve_obj_by_qualname(platform_cls_qualname)()\n\
+    \  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/utils/import_utils.py\"\
+    , line 111, in resolve_obj_by_qualname\n    module = importlib.import_module(module_name)\n\
+    \  File \"artifact_release_root/sosp26/env/vllm_qwen35_isolated_clean/lib/python3.10/importlib/__init__.py\"\
+    , line 126, in import_module\n    return _bootstrap._gcd_import(name[level:],\
+    \ package, level)\n  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/platforms/cuda.py\"\
+    , line 19, in <module>\n    import vllm._C  # noqa\nModuleNotFoundError: No module\
+    \ named 'vllm._C'"
+  model_backend: vllm
+  served_model_name: qwen-qwen2-5-14b-instruct-local
+- model_id: Qwen/Qwen3-30B-A3B-Instruct-2507
+  model_family: qwen
+  model_size: 30B-A3B
+  model_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3-30B-A3B-Instruct-2507/snapshots/0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe
+  snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3-30B-A3B-Instruct-2507/snapshots/0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe
+  tokenizer_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3-30B-A3B-Instruct-2507/snapshots/0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe/tokenizer.json
+  config_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3-30B-A3B-Instruct-2507/snapshots/0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe/config.json
+  checkpoint_id: 0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe
+  dtype: bfloat16
+  quantization: none
+  max_context_len: 262144
+  backend: vllm
+  required_gpu_count: 4
+  tensor_parallel_size: 4
+  load_status: ready
+  healthcheck_status: ready
+  healthcheck_latency_ms: 1.0
+  notes: gpu_memory_utilization_exceeded
+  prompt_tokens: 8
+  completion_tokens: 4
+  total_tokens: 12
+  tokenizer_hash: 685fa31022a695ad47b382a824c125b33ad78dfafa5835c7f5d19037582ad06d
+  model_path_hash: 8874bafb2a47280054e5ad764f64ec03fb19ee0a8ad6c10e5c4f1594c281d7f6
+  required_files:
+  - config.json
+  - tokenizer.json
+  - tokenizer_config.json
+  - generation_config.json
+  - model.safetensors.index.json
+  included_in_all_ready: true
+  included_in_paper_core: true
+  included_in_qwen_mid: false
+  failure_excerpt: "\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824]\
+    \ torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 298.00 MiB. GPU\
+    \ 2 has a total capacity of 39.49 GiB of which 6.12 MiB is free. Including non-PyTorch\
+    \ memory, this process has 39.48 GiB memory in use. Of the allocated memory 36.34\
+    \ GiB is allocated by PyTorch, with 35.88 MiB allocated in private pools (e.g.,\
+    \ CUDA Graphs), and 147.66 MiB is reserved by PyTorch but unallocated. If reserved\
+    \ but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True\
+    \ to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)\n\
+    \e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824]\
+    \ \n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824]\
+    \ The above exception was the direct cause of the following exception:\n\e[0;36m(Worker_TP2\
+    \ pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824] \n\e[0;36m(Worker_TP2\
+    \ pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824] Traceback\
+    \ (most recent call last):\n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR 04-22\
+    \ 05:53:38 [multiproc_executor.py:824]   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py\"\
+    , line 819, in worker_busy_loop\n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [multiproc_executor.py:824]     output = func(*args, **kwargs)\n\
+    \e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824]\
+    \              ^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m\
+    \ ERROR 04-22 05:53:38 [multiproc_executor.py:824]   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_worker.py\"\
+    , line 538, in compile_or_warm_up_model\n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m\
+    \ ERROR 04-22 05:53:38 [multiproc_executor.py:824]     self.model_runner._dummy_sampler_run(hidden_states=last_hidden_states)\n\
+    \e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824]\
+    \   File \"/usr/local/lib/python3.12/dist-packages/torch/utils/_contextlib.py\"\
+    , line 120, in decorate_context\n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [multiproc_executor.py:824]     return func(*args, **kwargs)\n\
+    \e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824]\
+    \            ^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [multiproc_executor.py:824]   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_model_runner.py\"\
+    , line 4307, in _dummy_sampler_run\n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [multiproc_executor.py:824]     raise RuntimeError(\n\e[0;36m(Worker_TP2\
+    \ pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824] RuntimeError:\
+    \ CUDA out of memory occurred when warming up sampler with 256 dummy requests.\
+    \ Please try lowering `max_num_seqs` or `gpu_memory_utilization` when initializing\
+    \ the engine.\n\e[0;36m(Worker_TP2 pid=3737231)\e[0;0m ERROR 04-22 05:53:38 [multiproc_executor.py:824]\
+    \ \n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR 04-22 05:53:38 [core.py:866]\
+    \ EngineCore failed to start.\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [core.py:866] Traceback (most recent call last):\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m ERROR 04-22 05:53:38 [core.py:866]   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 857, in run_engine_core\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [core.py:866]     engine_core = EngineCoreProc(*args, **kwargs)\n\
+    \e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR 04-22 05:53:38 [core.py:866]\
+    \                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3736902)\e\
+    [0;0m ERROR 04-22 05:53:38 [core.py:866]   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 637, in __init__\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR 04-22\
+    \ 05:53:38 [core.py:866]     super().__init__(\n\e[0;36m(EngineCore_DP0 pid=3736902)\e\
+    [0;0m ERROR 04-22 05:53:38 [core.py:866]   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 109, in __init__\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR 04-22\
+    \ 05:53:38 [core.py:866]     num_gpu_blocks, num_cpu_blocks, kv_cache_config =\
+    \ self._initialize_kv_caches(\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [core.py:866]                                               \
+    \        ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m\
+    \ ERROR 04-22 05:53:38 [core.py:866]   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 256, in _initialize_kv_caches\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m\
+    \ ERROR 04-22 05:53:38 [core.py:866]     self.model_executor.initialize_from_config(kv_cache_configs)\n\
+    \e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR 04-22 05:53:38 [core.py:866]\
+    \   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/abstract.py\"\
+    , line 116, in initialize_from_config\n\e[0;36m(EngineCore_DP0 pid=3736902)\e\
+    [0;0m ERROR 04-22 05:53:38 [core.py:866]     self.collective_rpc(\"compile_or_warm_up_model\"\
+    )\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR 04-22 05:53:38 [core.py:866]\
+    \   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py\"\
+    , line 359, in collective_rpc\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [core.py:866]     return aggregate(get_response())\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m ERROR 04-22 05:53:38 [core.py:866]                     \
+    \ ^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR 04-22 05:53:38\
+    \ [core.py:866]   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py\"\
+    , line 342, in get_response\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR\
+    \ 04-22 05:53:38 [core.py:866]     raise RuntimeError(\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m ERROR 04-22 05:53:38 [core.py:866] RuntimeError: Worker\
+    \ failed with error 'CUDA out of memory occurred when warming up sampler with\
+    \ 256 dummy requests. Please try lowering `max_num_seqs` or `gpu_memory_utilization`\
+    \ when initializing the engine.', please check the stack trace above for the root\
+    \ cause\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m ERROR 04-22 05:53:45 [multiproc_executor.py:231]\
+    \ Worker proc VllmWorker-2 died unexpectedly, shutting down executor.\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m Process EngineCore_DP0:\n\e[0;36m(EngineCore_DP0 pid=3736902)\e\
+    [0;0m Traceback (most recent call last):\n\e[0;36m(EngineCore_DP0 pid=3736902)\e\
+    [0;0m   File \"/usr/lib/python3.12/multiprocessing/process.py\", line 314, in\
+    \ _bootstrap\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m     self.run()\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m   File \"/usr/lib/python3.12/multiprocessing/process.py\"\
+    , line 108, in run\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m     self._target(*self._args,\
+    \ **self._kwargs)\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 870, in run_engine_core\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m  \
+    \   raise e\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 857, in run_engine_core\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m  \
+    \   engine_core = EngineCoreProc(*args, **kwargs)\n\e[0;36m(EngineCore_DP0 pid=3736902)\e\
+    [0;0m                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 637, in __init__\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m     super().__init__(\n\
+    \e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 109, in __init__\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m     num_gpu_blocks,\
+    \ num_cpu_blocks, kv_cache_config = self._initialize_kv_caches(\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py\"\
+    , line 256, in _initialize_kv_caches\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m\
+    \     self.model_executor.initialize_from_config(kv_cache_configs)\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/abstract.py\"\
+    , line 116, in initialize_from_config\n\e[0;36m(EngineCore_DP0 pid=3736902)\e\
+    [0;0m     self.collective_rpc(\"compile_or_warm_up_model\")\n\e[0;36m(EngineCore_DP0\
+    \ pid=3736902)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py\"\
+    , line 359, in collective_rpc\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m   \
+    \  return aggregate(get_response())\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m\
+    \                      ^^^^^^^^^^^^^^\n\e[0;36m(EngineCore_DP0 pid=3736902)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py\"\
+    , line 342, in get_response\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m     raise\
+    \ RuntimeError(\n\e[0;36m(EngineCore_DP0 pid=3736902)\e[0;0m RuntimeError: Worker\
+    \ failed with error 'CUDA out of memory occurred when warming up sampler with\
+    \ 256 dummy requests. Please try lowering `max_num_seqs` or `gpu_memory_utilization`\
+    \ when initializing the engine.', please check the stack trace above for the root\
+    \ cause\n\e[0;36m(APIServer pid=3736815)\e[0;0m Traceback (most recent call last):\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m   File \"<frozen runpy>\", line 198, in\
+    \ _run_module_as_main\n\e[0;36m(APIServer pid=3736815)\e[0;0m   File \"<frozen\
+    \ runpy>\", line 88, in _run_code\n\e[0;36m(APIServer pid=3736815)\e[0;0m   File\
+    \ \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1469, in <module>\n\e[0;36m(APIServer pid=3736815)\e[0;0m     uvloop.run(run_server(args))\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/uvloop/__init__.py\"\
+    , line 96, in run\n\e[0;36m(APIServer pid=3736815)\e[0;0m     return __asyncio.run(\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m            ^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m   File \"/usr/lib/python3.12/asyncio/runners.py\", line\
+    \ 195, in run\n\e[0;36m(APIServer pid=3736815)\e[0;0m     return runner.run(main)\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m            ^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m   File \"/usr/lib/python3.12/asyncio/runners.py\", line\
+    \ 118, in run\n\e[0;36m(APIServer pid=3736815)\e[0;0m     return self._loop.run_until_complete(task)\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m   File \"uvloop/loop.pyx\", line 1518,\
+    \ in uvloop.loop.Loop.run_until_complete\n\e[0;36m(APIServer pid=3736815)\e[0;0m\
+    \   File \"/usr/local/lib/python3.12/dist-packages/uvloop/__init__.py\", line\
+    \ 48, in wrapper\n\e[0;36m(APIServer pid=3736815)\e[0;0m     return await main\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m            ^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1398, in run_server\n\e[0;36m(APIServer pid=3736815)\e[0;0m     await run_server_worker(listen_address,\
+    \ sock, args, **uvicorn_kwargs)\n\e[0;36m(APIServer pid=3736815)\e[0;0m   File\
+    \ \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1417, in run_server_worker\n\e[0;36m(APIServer pid=3736815)\e[0;0m    \
+    \ async with build_async_engine_client(\n\e[0;36m(APIServer pid=3736815)\e[0;0m\
+    \                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3736815)\e\
+    [0;0m   File \"/usr/lib/python3.12/contextlib.py\", line 210, in __aenter__\n\e\
+    [0;36m(APIServer pid=3736815)\e[0;0m     return await anext(self.gen)\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3736815)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 172, in build_async_engine_client\n\e[0;36m(APIServer pid=3736815)\e[0;0m\
+    \     async with build_async_engine_client_from_engine_args(\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m   File \"/usr/lib/python3.12/contextlib.py\"\
+    , line 210, in __aenter__\n\e[0;36m(APIServer pid=3736815)\e[0;0m     return await\
+    \ anext(self.gen)\n\e[0;36m(APIServer pid=3736815)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 213, in build_async_engine_client_from_engine_args\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m     async_llm = AsyncLLM.from_vllm_config(\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m                 ^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/async_llm.py\"\
+    , line 215, in from_vllm_config\n\e[0;36m(APIServer pid=3736815)\e[0;0m     return\
+    \ cls(\n\e[0;36m(APIServer pid=3736815)\e[0;0m            ^^^^\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/async_llm.py\"\
+    , line 134, in __init__\n\e[0;36m(APIServer pid=3736815)\e[0;0m     self.engine_core\
+    \ = EngineCoreClient.make_async_mp_client(\n\e[0;36m(APIServer pid=3736815)\e\
+    [0;0m                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py\"\
+    , line 121, in make_async_mp_client\n\e[0;36m(APIServer pid=3736815)\e[0;0m  \
+    \   return AsyncMPClient(*client_args)\n\e[0;36m(APIServer pid=3736815)\e[0;0m\
+    \            ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3736815)\e[0;0m\
+    \   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py\"\
+    , line 820, in __init__\n\e[0;36m(APIServer pid=3736815)\e[0;0m     super().__init__(\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py\"\
+    , line 477, in __init__\n\e[0;36m(APIServer pid=3736815)\e[0;0m     with launch_core_engines(vllm_config,\
+    \ executor_class, log_stats) as (\n\e[0;36m(APIServer pid=3736815)\e[0;0m    \
+    \      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m   File \"/usr/lib/python3.12/contextlib.py\", line 144,\
+    \ in __exit__\n\e[0;36m(APIServer pid=3736815)\e[0;0m     next(self.gen)\n\e[0;36m(APIServer\
+    \ pid=3736815)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/utils.py\"\
+    , line 903, in launch_core_engines\n\e[0;36m(APIServer pid=3736815)\e[0;0m   \
+    \  wait_for_engine_startup(\n\e[0;36m(APIServer pid=3736815)\e[0;0m   File \"\
+    /usr/local/lib/python3.12/dist-packages/vllm/v1/engine/utils.py\", line 960, in\
+    \ wait_for_engine_startup\n\e[0;36m(APIServer pid=3736815)\e[0;0m     raise RuntimeError(\n\
+    \e[0;36m(APIServer pid=3736815)\e[0;0m RuntimeError: Engine core initialization\
+    \ failed. See root cause above. Failed core proc(s): {}"
+  model_backend: vllm
+- model_id: Qwen/Qwen3.5-35B-A3B
+  model_family: qwen
+  model_size: 35B-A3B
+  model_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3.5-35B-A3B/snapshots/ec2d4ece1ffb563322cbee9a48fe0e3fcbce0307
+  snapshot_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3.5-35B-A3B/snapshots/ec2d4ece1ffb563322cbee9a48fe0e3fcbce0307
+  tokenizer_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3.5-35B-A3B/snapshots/ec2d4ece1ffb563322cbee9a48fe0e3fcbce0307/tokenizer.json
+  config_path: artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3.5-35B-A3B/snapshots/ec2d4ece1ffb563322cbee9a48fe0e3fcbce0307/config.json
+  checkpoint_id: ec2d4ece1ffb563322cbee9a48fe0e3fcbce0307
+  dtype: unknown
+  quantization: none
+  max_context_len: 4096
+  backend: vllm
+  required_gpu_count: 4
+  tensor_parallel_size: 4
+  load_status: failed_load
+  healthcheck_status: failed_load
+  healthcheck_latency_ms: null
+  notes: unsupported_architecture
+  prompt_tokens: null
+  completion_tokens: null
+  total_tokens: null
+  tokenizer_hash: 10eab12d88dca2ce56d1f749238862eac57f120bc317305f53044d4cadce0724
+  model_path_hash: 19b42fc9eee7115f9d3858373bf0d832811a788685903e19893b9bb4f41f95fd
+  required_files:
+  - config.json
+  - tokenizer.json
+  - tokenizer_config.json
+  - generation_config.json
+  - model.safetensors.index.json
+  included_in_all_ready: false
+  included_in_paper_core: false
+  included_in_qwen_mid: false
+  failure_excerpt: "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py:110:\
+    \ FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed\
+    \ in v5 of Transformers. Use `HF_HOME` instead.\n  warnings.warn(\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m INFO 04-22 04:27:46 [api_server.py:1351] vLLM API server\
+    \ version 0.13.0\n\e[0;36m(APIServer pid=3651426)\e[0;0m INFO 04-22 04:27:46 [utils.py:253]\
+    \ non-default args: {'host': '127.0.0.1', 'port': 18004, 'model': 'artifact_release_root/sosp26/cache/hf/hub/models--Qwen--Qwen3.5-35B-A3B/snapshots/ec2d4ece1ffb563322cbee9a48fe0e3fcbce0307',\
+    \ 'max_model_len': 4096, 'served_model_name': ['qwen-qwen3-5-35b-a3b-local'],\
+    \ 'tensor_parallel_size': 4, 'gpu_memory_utilization': 0.5}\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m WARNING 04-22 04:27:46 [system_utils.py:262] Found ulimit\
+    \ of 16384 and failed to automatically increase with error current limit exceeds\
+    \ maximum limit. This can cause fd limit errors like `OSError: [Errno 24] Too\
+    \ many open files`. Consider increasing with ulimit -n\n\e[0;36m(APIServer pid=3651426)\e\
+    [0;0m Traceback (most recent call last):\n\e[0;36m(APIServer pid=3651426)\e[0;0m\
+    \   File \"<frozen runpy>\", line 198, in _run_module_as_main\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m   File \"<frozen runpy>\", line 88, in _run_code\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1469, in <module>\n\e[0;36m(APIServer pid=3651426)\e[0;0m     uvloop.run(run_server(args))\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/uvloop/__init__.py\"\
+    , line 96, in run\n\e[0;36m(APIServer pid=3651426)\e[0;0m     return __asyncio.run(\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m            ^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m   File \"/usr/lib/python3.12/asyncio/runners.py\", line\
+    \ 195, in run\n\e[0;36m(APIServer pid=3651426)\e[0;0m     return runner.run(main)\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m            ^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m   File \"/usr/lib/python3.12/asyncio/runners.py\", line\
+    \ 118, in run\n\e[0;36m(APIServer pid=3651426)\e[0;0m     return self._loop.run_until_complete(task)\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m   File \"uvloop/loop.pyx\", line 1518,\
+    \ in uvloop.loop.Loop.run_until_complete\n\e[0;36m(APIServer pid=3651426)\e[0;0m\
+    \   File \"/usr/local/lib/python3.12/dist-packages/uvloop/__init__.py\", line\
+    \ 48, in wrapper\n\e[0;36m(APIServer pid=3651426)\e[0;0m     return await main\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m            ^^^^^^^^^^\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1398, in run_server\n\e[0;36m(APIServer pid=3651426)\e[0;0m     await run_server_worker(listen_address,\
+    \ sock, args, **uvicorn_kwargs)\n\e[0;36m(APIServer pid=3651426)\e[0;0m   File\
+    \ \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 1417, in run_server_worker\n\e[0;36m(APIServer pid=3651426)\e[0;0m    \
+    \ async with build_async_engine_client(\n\e[0;36m(APIServer pid=3651426)\e[0;0m\
+    \                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3651426)\e\
+    [0;0m   File \"/usr/lib/python3.12/contextlib.py\", line 210, in __aenter__\n\e\
+    [0;36m(APIServer pid=3651426)\e[0;0m     return await anext(self.gen)\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3651426)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 172, in build_async_engine_client\n\e[0;36m(APIServer pid=3651426)\e[0;0m\
+    \     async with build_async_engine_client_from_engine_args(\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m   File \"/usr/lib/python3.12/contextlib.py\"\
+    , line 210, in __aenter__\n\e[0;36m(APIServer pid=3651426)\e[0;0m     return await\
+    \ anext(self.gen)\n\e[0;36m(APIServer pid=3651426)\e[0;0m            ^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/openai/api_server.py\"\
+    , line 198, in build_async_engine_client_from_engine_args\n\e[0;36m(APIServer\
+    \ pid=3651426)\e[0;0m     vllm_config = engine_args.create_engine_config(usage_context=usage_context)\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/engine/arg_utils.py\"\
+    , line 1332, in create_engine_config\n\e[0;36m(APIServer pid=3651426)\e[0;0m \
+    \    model_config = self.create_model_config()\n\e[0;36m(APIServer pid=3651426)\e\
+    [0;0m                    ^^^^^^^^^^^^^^^^^^^^^^^^^^\n\e[0;36m(APIServer pid=3651426)\e\
+    [0;0m   File \"/usr/local/lib/python3.12/dist-packages/vllm/engine/arg_utils.py\"\
+    , line 1189, in create_model_config\n\e[0;36m(APIServer pid=3651426)\e[0;0m  \
+    \   return ModelConfig(\n\e[0;36m(APIServer pid=3651426)\e[0;0m            ^^^^^^^^^^^^\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m   File \"/usr/local/lib/python3.12/dist-packages/pydantic/_internal/_dataclasses.py\"\
+    , line 121, in __init__\n\e[0;36m(APIServer pid=3651426)\e[0;0m     s.__pydantic_validator__.validate_python(ArgsKwargs(args,\
+    \ kwargs), self_instance=s)\n\e[0;36m(APIServer pid=3651426)\e[0;0m pydantic_core._pydantic_core.ValidationError:\
+    \ 1 validation error for ModelConfig\n\e[0;36m(APIServer pid=3651426)\e[0;0m \
+    \  Value error, The checkpoint you are trying to load has model type `qwen3_5_moe`\
+    \ but Transformers does not recognize this architecture. This could be because\
+    \ of an issue with the checkpoint, or because your version of Transformers is\
+    \ out of date.\n\e[0;36m(APIServer pid=3651426)\e[0;0m \n\e[0;36m(APIServer pid=3651426)\e\
+    [0;0m You can update Transformers with the command `pip install --upgrade transformers`.\
+    \ If this does not work, and the checkpoint is very new, then there may not be\
+    \ a release version that supports this model yet. In this case, you can get the\
+    \ most up-to-date code by installing Transformers from source with the command\
+    \ `pip install git+https://github.com/jimmyreleasedata/evidence-gated-agent-substrate [type=value_error,\
+    \ input_value=ArgsKwargs((), {'model': ...rocessor_plugin': None}), input_type=ArgsKwargs]\n\
+    \e[0;36m(APIServer pid=3651426)\e[0;0m     For further information visit https://errors.pydantic.dev/2.12/v/value_error\n\
+    Traceback (most recent call last):\n  File \"artifact_release_root/sosp26/env/vllm_qwen35_isolated_clean/lib/python3.10/runpy.py\"\
+    , line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n\
+    \  File \"artifact_release_root/sosp26/env/vllm_qwen35_isolated_clean/lib/python3.10/runpy.py\"\
+    , line 86, in _run_code\n    exec(code, run_globals)\n  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/entrypoints/openai/api_server.py\"\
+    , line 25, in <module>\n    from vllm.config import VllmConfig\n  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/config/__init__.py\"\
+    , line 6, in <module>\n    from vllm.config.compilation import (\n  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/config/compilation.py\"\
+    , line 22, in <module>\n    from vllm.platforms import current_platform\n  File\
+    \ \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/platforms/__init__.py\"\
+    , line 252, in __getattr__\n    _current_platform = resolve_obj_by_qualname(platform_cls_qualname)()\n\
+    \  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/utils/import_utils.py\"\
+    , line 111, in resolve_obj_by_qualname\n    module = importlib.import_module(module_name)\n\
+    \  File \"artifact_release_root/sosp26/env/vllm_qwen35_isolated_clean/lib/python3.10/importlib/__init__.py\"\
+    , line 126, in import_module\n    return _bootstrap._gcd_import(name[level:],\
+    \ package, level)\n  File \"artifact_release_root/sosp26/vendor/vllm_qwen35_main_20260312/vllm/platforms/cuda.py\"\
+    , line 19, in <module>\n    import vllm._C  # noqa\nModuleNotFoundError: No module\
+    \ named 'vllm._C'"
+defaults:
+  backend: vllm
+  runsets:
+    all_ready: &id002
+    - Qwen/Qwen2.5-1.5B-Instruct
+    - Qwen/Qwen2.5-7B-Instruct
+    - Qwen/Qwen2.5-14B-Instruct
+    - Qwen/Qwen3-30B-A3B-Instruct-2507
+    paper_core: &id001
+    - Qwen/Qwen2.5-1.5B-Instruct
+    - Qwen/Qwen3-30B-A3B-Instruct-2507
+    qwen_mid: &id003
+    - Qwen/Qwen2.5-14B-Instruct
+paper_core: *id001
+all_ready: *id002
+qwen_mid: *id003
